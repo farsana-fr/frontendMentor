@@ -3,53 +3,35 @@ body {
   font-family: "Outfit", sans-serif;
 }
 .attribution {
-  font-size: 11px;
+  font-size: 0.7rem;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-.frame {
-  height: 600px;
+body {
+  height: 100vh;
   background-color: hsl(219, 70%, 82%);
-  padding: 5%;
-  position: relative;
-  margin-top: 3%;
+
+}
+main
+{
+  height: 97vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .card {
   width: 20rem;
-  position: absolute;
-  /* left: 40%; */
-  left: 35%;
-  top: 5%;
+  margin: auto;
 }
 
-img {
-  border-radius: 5%;
-}
 .card-lines {
-  font-size: 15px;
+  font-size: 0.9rem;
   font-weight: 400;
   color: hsl(220, 15%, 55%);
 }
 .card-title {
   font-weight: 700;
-}
-
-@media (max-width: 1000px) {
-  .card {
-    width: 50%;
-    top: 5%;
-    left: 20%;
-  }
-}
-@media (max-width: 400px) {
-  .card {
-    width: 70%;
-    top: 5%;
-    left: 20%;
-  }
-  .frame {
-    margin-top: 0%;
-  }
+  font-size: 1.3rem;
 }
